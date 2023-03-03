@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link href="style.css" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<div class="container">
+		<h1>Countdown Timer</h1>
+		<form>
+			<label for="datetime">Enter date and time:</label>
+			<input type="datetime-local" id="datetime" name="datetime" required>
+			<input type="button" value="Start" onclick="startTimer()">
+		</form>
+		<div class="timer" id="timer"></div>
+	</div>
+<script src="script.js"></script>
+</body>
+</html>
